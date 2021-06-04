@@ -101,7 +101,7 @@ class Prefs(context: Context) {
         set(value) = prefs.edit().putString(WALLPAPER_UPDATED_DAY, value).apply()
 
     var homeAppsNum: Int
-        get() = prefs.getInt(HOME_APPS_NUM, 4)
+        get() = prefs.getInt(HOME_APPS_NUM, 8)
         set(value) = prefs.edit().putInt(HOME_APPS_NUM, value).apply()
 
     var homeAlignment: Int
